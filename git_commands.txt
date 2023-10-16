@@ -5,5 +5,23 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ravikumar-peyyala999/test.git
 git push -u origin main
-
 ---------------------------------
+
+$ git remote -v
+origin  https://github.com/ravikumar-peyyala999/test.git (fetch)
+origin  https://github.com/ravikumar-peyyala999/test.git (push)
+
+-------------------------------------
+(main)$ touch chapter-1.txt
+(main)$ echo "Chapter 1 - The Beginning" >> chapter-1.txt
+(main)$ cat chapter-1.txt
+Chapter 1 - The Beginning
+
+--------------------------------
+
+git log --oneline
+8f0d47c (HEAD -> main, origin/main) updated contents in txt file
+5459374 initial commit
+
+-----------------------------
+
